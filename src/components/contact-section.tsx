@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { useToast } from "@/hooks/use-toast";
+//import { useToast } from "@/hooks/use-toast";
 import { contactInfo } from "@/lib/portfolio-data";
 
 export default function ContactSection() {
@@ -14,7 +14,7 @@ export default function ContactSection() {
     email: "",
     message: "",
   });
-  const { toast } = useToast();
+  //const { toast } = useToast();
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -76,7 +76,6 @@ export default function ContactSection() {
                       <a
                         className="text-xl font-bold"
                         href="https://www.linkedin.com/in/deepthi-sree-sampathirao-b81440164/"
-                        text="Connect with me professionally"
                       >
                         LinkedIn
                       </a>
