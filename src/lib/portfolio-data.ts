@@ -36,6 +36,7 @@ export interface SkillCategory {
 }
 
 export interface ContactInfo {
+  github: string;
   email: string;
   phone: string;
   linkedin: string;
@@ -49,6 +50,7 @@ export interface Certification {
 }
 
 export const contactInfo: ContactInfo = {
+  github:"https://github.com/deepu-crypto",
   email: "deepthisree1012@gmail.com",
   phone: "704-352-3141",
   linkedin: "https://www.linkedin.com/in/deepthi-sree-sampathirao-b81440164"
@@ -86,7 +88,7 @@ export const education: Education[] = [
     field: "Computer Science",
     school: "University of North Carolina Charlotte",
     location: "Charlotte, NC",
-    period: "Aug 2024 – Dec 2026",
+    period: "Aug 2024 – Dec 2025",
     gpa: "4.0",
     description: "Currently pursuing advanced studies in Computer Science with focus on software engineering and system design."
   },
