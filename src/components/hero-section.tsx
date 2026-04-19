@@ -42,10 +42,12 @@ export default function HeroSection() {
     >
       <div className="container mx-auto px-6 text-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text">Deepthi Sree</span>
-            <br />
-            <span className="text-foreground">Sampathirao</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 flex justify-center">
+                <img
+    src="dist/name.jpg"
+    alt="deepthi"
+    className="w-[280px] md:w-[420px] h-auto"
+  />
           </h1>
 
           <div className="text-xl md:text-2xl mb-8 text-muted-foreground">

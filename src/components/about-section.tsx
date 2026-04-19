@@ -8,9 +8,7 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 gradient-text">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a dedicated Software Engineer pursuing my Master's in Computer Science at UNC Charlotte. 
-            With hands-on experience at Accenture, I specialize in building scalable web applications and 
-            implementing efficient solutions for complex problems.
+            I'm a dedicated Software Engineer with 5 years of enterprise experience building cloud-native, microservices-driven applications across financial services, pharmaceutical technology, and e-commerce verticals. Proficient in Java, Spring Boot, React, and Angular with hands-on expertise in full stack delivery across AWS and Azure. Adept in LLM-backed document intelligence, RAG pipelines, embedding workflows, and multi-agent orchestration systems on top of a production Java full stack foundation.
           </p>
         </div>
 
@@ -23,7 +21,7 @@ export default function AboutSection() {
                   <h3 className="text-xl font-semibold">Education</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  Currently pursuing MS in Computer Science at UNC Charlotte with a 4.0 GPA
+                  Graduated as  MS in Computer Science at UNC Charlotte with a 4.0 GPA
                 </p>
               </CardContent>
             </Card>
@@ -35,7 +33,7 @@ export default function AboutSection() {
                   <h3 className="text-xl font-semibold">Experience</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  3+ years of software development experience with expertise in React, Python, and cloud technologies
+                  5 years of software development experience with expertise in React, Python, and cloud technologies
                 </p>
               </CardContent>
             </Card>
@@ -47,7 +45,7 @@ export default function AboutSection() {
                   <h3 className="text-xl font-semibold">Achievements</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  ACE Award recipient at Accenture, Microsoft Azure certified professional
+                  ACE Award recipient at Accenture
                 </p>
               </CardContent>
             </Card>
@@ -77,7 +75,7 @@ export default function AboutSection() {
                     <Code className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white h-8 w-8" />
                   </div>
                   <h3 className="text-2xl font-bold mb-2">Full Stack Developer</h3>
-                  <p className="text-muted-foreground">Passionate about creating innovative solutions</p>
+                  <p className="text-muted-foreground">Currently transitioning into AI Engineer</p>
                 </div>
               </CardContent>
             </Card>
