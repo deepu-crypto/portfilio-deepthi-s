@@ -185,7 +185,7 @@ export const certifications: Certification[] = [
     name: "AWS Certified AI Practitioner Associate",
     issuer: "AWS",
     date: "March 2026- March 2029",
-    icon: "microsoft"
+    icon: "aws"
   },
   {
     name: "Microsoft Azure Fundamentals",
