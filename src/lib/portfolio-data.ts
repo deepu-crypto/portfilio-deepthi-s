@@ -53,7 +53,7 @@ export const contactInfo: ContactInfo = {
   github:"https://github.com/deepu-crypto",
   email: "deepthisree1012@gmail.com",
   phone: "704-352-3141",
-  linkedin: "https://www.linkedin.com/in/deepthi-sree-sampathirao-b81440164"
+  linkedin: "https://www.linkedin.com/in/deepthi-sree-b81440164/"
 };
 
 export const experiences: Experience[] = [
@@ -185,7 +185,7 @@ export const certifications: Certification[] = [
     name: "AWS Certified AI Practitioner Associate",
     issuer: "AWS",
     date: "March 2026- March 2029",
-    icon: "aws"
+    icon: "microsoft"
   },
   {
     name: "Microsoft Azure Fundamentals",
