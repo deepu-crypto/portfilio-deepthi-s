@@ -30,7 +30,7 @@ export default function HeroSection() {
   const downloadResume = () => {
     // Create a link to the resume file
     const link = document.createElement("a");
-    link.href = "/Deepthi_Sree_Sampathirao_Resume.pdf";
+    link.href = "dist/Deepthi_Sree_Sampathirao_Resume.pdf";
     link.download = "Deepthi_Sree_Sampathirao_Resume.pdf";
     link.click();
   };
