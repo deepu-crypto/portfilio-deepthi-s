@@ -45,7 +45,7 @@ export default function HeroSection() {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 flex justify-center">
                 <img
     src="dist/name.jpg"
-    alt="Deepthi Sree Sampathirao"
+    alt="Deepthi Sree"
     className="w-[280px] md:w-[420px] h-auto"
   />
           </h1>
