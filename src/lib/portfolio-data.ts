@@ -52,7 +52,7 @@ export interface Certification {
 export const contactInfo: ContactInfo = {
   github:"https://github.com/deepu-crypto",
   email: "deepthisampathirao012@gmail.com",
-  phone: "704-352-3141",
+  phone: "661-416-2434",
   linkedin: "https://www.linkedin.com/in/deepthi-sree-s-b81440164/"
 };
 
