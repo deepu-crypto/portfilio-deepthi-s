@@ -30,7 +30,7 @@ export default function HeroSection() {
   const downloadResume = () => {
     // Create a link to the resume file
     const link = document.createElement("a");
-    link.href = "dist/Deepthi_Sree_Sampathirao_Resume.pdf";
+    link.href = "https://res.cloudinary.com/dhe9cx5eb/raw/upload/v1779411061/Deepthi_Java_Full_Stack_Resume_r33yie.docx";
     link.download = "Deepthi_Sree_Sampathirao_Resume.pdf";
     link.click();
   };
@@ -43,18 +43,18 @@ export default function HeroSection() {
       <div className="container mx-auto px-6 text-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 flex justify-center">
-                <img
-    src="dist/name.jpg"
-    alt="Deepthi Sree Sampathirao"
-    className="w-[280px] md:w-[420px] h-auto"
-  />
+            <img
+              src="https://res.cloudinary.com/dhe9cx5eb/image/upload/v1779405243/name_str1so.jpg"
+              alt="Deepthi"
+              className="w-[280px] md:w-[420px] h-auto"
+            />
+
           </h1>
 
           <div className="text-xl md:text-2xl mb-8 text-muted-foreground">
             <span
-              className={`inline-block ${
-                !isTypingComplete ? "typing-effect" : ""
-              }`}
+              className={`inline-block ${!isTypingComplete ? "typing-effect" : ""
+                }`}
             >
               Software Engineer & Full Stack Developer
             </span>
